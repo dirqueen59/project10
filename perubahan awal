@@ -1,0 +1,11 @@
+<?php
+function hitungLuasLingkaran($jariJari) {
+    return pi() * pow($jariJari, 2);  // pi() = 3.14159..., pow() = pangkat
+}
+echo "Luas lingkaran: " . hitungLuasLingkaran(7);  // Output: Luas lingkaran: 153.9380400259
+}
+function hitungLuasSegitiga($tinggi,$alas) {
+    return $tinggi*$alas /2 ;
+}
+echo "Luas Segitiga: " . hitungLuasSegitiga(8,3); // Output: Luas lingkaran: 153.9380400259
+?> 
